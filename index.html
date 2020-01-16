@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<meta charset="UTF-8">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <!-- figure out what meta http... means -->
+     <!-- <meta http-eqiv="X-UA-Compatible" content="ie-edge"> -->
+
     <title>The Crystal Collector</title>
+
+
     <link rel="stylesheet" type="text/css" href="assests/css/style.css">
     <link rel="stylesheet" type="text/css" href="assests/css/reset.css">
+
+    <!-- bootstrap link -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+    
 
 </head>
 
@@ -21,13 +37,20 @@
     <!-- remember to add some audio -->
 
     <div class="header">
-        <h1>Crystal Collector</h1>
-        <h2>Number to Guess: <span id="number-to-guess"></span></h2>
-        <h3>Press any crystal to begin the game!</h3>
+     <h1>Crystal Collector</h1>
         
     </div>
 
-    <div class="crystalguess" id="guesscrystal"></div>
+    <div class="Instructions:" id="instr">
+        <h2>Instructions:</h2>
+        <p>You have 4 crystals, you have to collect the specific number of crystals.</p>
+        <p>You win by matching the total score, you lose when you go over the score.</p>
+        <p>Each value is hidden behind each crystal, and each crystal have a random value.</p>
+        <p>good luck!!</p>
+    </div>
+
+        
+    
     
 
 </body>
