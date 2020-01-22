@@ -1,7 +1,7 @@
 
 $( document ).ready(function(){
     // Generates random number to guess
-    var Random=Math.floor(Math.random() * 102 +1 9)
+    var Random=Math.floor(Math.random() * 102 +19)
     
     // Display random number
     $('#scoreToMatch').text(Random);
@@ -23,7 +23,7 @@ $( document ).ready(function(){
   
   // Reset game
   function reset(){
-        Random=Math.floor(Math.random() * 102 + 19);
+        Random=Math.floor(Math.random()*102+19);
         console.log(Random)
 
         $('#scoreToMatch').text(Random);
