@@ -7,15 +7,34 @@ body {
     padding-top: 50px;
 }
 
-.winsandLosses {
+#scoreToMatch {
     text-align: center;
     font-family: cursive;
 }
 
-.Jumbotron {
+#wins {
     text-align: center;
     font-family: cursive;
-    padding-top: 50px;
+}
+
+.col-sm-9 {
+    text-align: center;
+    font-family: cursive;
+}
+
+.col-sm-3 {
+    text-align: center;
+    font-family: cursive;
+}
+#losses {
+    text-align: center;
+    font-family: cursive;
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    
 }
 
 .numberToMatch {
@@ -23,7 +42,12 @@ body {
     font-family: cursive;
 }
 
-.Collected {
+.crystalCollected {
+    text-align: center;
+    font-family: cursive;
+}
+
+.instructions {
     text-align: center;
     font-family: cursive;
 }
